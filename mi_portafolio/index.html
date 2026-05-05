@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonathan - Auxiliar en Programación</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- NAVEGACIÓN -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <h1>Jonathan</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#sobre" class="nav-link">Sobre mí</a></li>
+                <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SECCIÓN HERO -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2 class="greeting">¡Hola! 👋</h2>
+                <h1 class="title">Soy Jonathan</h1>
+                <p class="subtitle">Auxiliar en Programación - Especializado en HTML, CSS, JavaScript, Python y Django</p>
+                <div class="cta-buttons">
+                    <a href="#proyectos" class="btn btn-primary">Ver mis proyectos</a>
+                    <a href="#contacto" class="btn btn-secondary">Ponte en contacto</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="avatar"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN SOBRE MÍ -->
+    <section id="sobre" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre mí</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Soy un auxiliar de programación apasionado por crear soluciones digitales eficientes. Me especializo en desarrollo web con tecnologías modernas como HTML, CSS, JavaScript, Python y Django.</p>
+                    <p>Mi compromiso es doy lo mejor en cada proyecto. Combino código limpio con experiencia de usuario excepcional, siempre buscando mejorar mis habilidades y aprender nuevas tecnologías.</p>
+                    <p>Me encanta resolver problemas de programación, contribuir a proyectos open source y ayudar a otros a aprender. Soy una persona comprometida que da su máximo esfuerzo en cada tarea.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>2+</h3>
+                        <p>Años en programación</p>
+                    </div>
+                    <div class="stat">
+                        <h3>15+</h3>
+                        <p>Proyectos completados</p>
+                    </div>
+                    <div class="stat">
+                        <h3>8+</h3>
+                        <p>Clientes satisfechos</p>
+                    </div>
+                    <div class="stat">
+                        <h3>6+</h3>
+                        <p>Tecnologías dominadas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN PROYECTOS -->
+    <section id="proyectos" class="projects">
+        <div class="container">
+            <h2 class="section-title">Proyectos destacados</h2>
+            <div class="projects-grid">
+                <!-- Proyecto 1 - Sistema de Gastos Django -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x300?text=Sistema+de+Gastos+Django" alt="Sistema de Gastos Django">
+                        <div class="project-overlay">
+                            <a href="../gastos_django/" class="btn-icon" title="Ver proyecto Django"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Sistema de Gestión de Gastos</h3>
+                        <p>Aplicación web completa en Django para gestionar gastos personales. Incluye modelos de datos, vistas, templates, formularios y migraciones. Proyecto real con estructura profesional de Django.</p>
+                        <div class="project-tags">
+                            <span class="tag">Django</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">SQLite</span>
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 2 - Este Portafolio -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x300?text=Portafolio+Web" alt="Portafolio Web">
+                        <div class="project-overlay">
+                            <a href="./" class="btn-icon" title="Ver portafolio"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Portafolio Web Profesional</h3>
+                        <p>Sitio web responsivo y moderno creado con HTML, CSS y JavaScript puro. Diseño profesional con animaciones, formulario funcional y navegación inteligente.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Responsive</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x300?text=Proyecto+3" alt="Proyecto 3">
+                        <div class="project-overlay">
+                            <a href="#" class="btn-icon" title="Ver proyecto"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>App de Tareas</h3>
+                        <p>Aplicación interactiva para gestionar tareas diarias con sincronización en la nube.</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">Material UI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x300?text=Proyecto+4" alt="Proyecto 4">
+                        <div class="project-overlay">
+                            <a href="#" class="btn-icon" title="Ver proyecto"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>API RESTful</h3>
+                        <p>Backend robusto con autenticación, validación de datos y documentación completa.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">FastAPI</span>
+                            <span class="tag">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 5 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x300?text=Proyecto+5" alt="Proyecto 5">
+                        <div class="project-overlay">
+                            <a href="#" class="btn-icon" title="Ver proyecto"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Dashboard Analytics</h3>
+                        <p>Panel de control interactivo con gráficos en tiempo real y análisis de datos.</p>
+                        <div class="project-tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">Chart.js</span>
+                            <span class="tag">Node.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 6 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x300?text=Proyecto+6" alt="Proyecto 6">
+                        <div class="project-overlay">
+                            <a href="#" class="btn-icon" title="Ver proyecto"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-commerce</h3>
+                        <p>Tienda en línea completa con carrito de compras, pagos y panel administrativo.</p>
+                        <div class="project-tags">
+                            <span class="tag">Django</span>
+                            <span class="tag">Stripe</span>
+                            <span class="tag">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN HABILIDADES -->
+    <section id="habilidades" class="skills">
+        <div class="container">
+            <h2 class="section-title">Habilidades técnicas</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Frontend</h3>
+                    <div class="skill-list">
+                        <span class="skill-badge">HTML5</span>
+                        <span class="skill-badge">CSS3</span>
+                        <span class="skill-badge">JavaScript</span>
+                        <span class="skill-badge">Bootstrap</span>
+                        <span class="skill-badge">Responsive Design</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skill-list">
+                        <span class="skill-badge">Python</span>
+                        <span class="skill-badge">Django</span>
+                        <span class="skill-badge">SQLite</span>
+                        <span class="skill-badge">Modelos Django</span>
+                        <span class="skill-badge">Templates</span>
+                        <span class="skill-badge">Migraciones</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Bases de Datos</h3>
+                    <div class="skill-list">
+                        <span class="skill-badge">SQLite</span>
+                        <span class="skill-badge">PostgreSQL</span>
+                        <span class="skill-badge">MySQL</span>
+                        <span class="skill-badge">Modelos Django</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Herramientas</h3>
+                    <div class="skill-list">
+                        <span class="skill-badge">VS Code</span>
+                        <span class="skill-badge">Git</span>
+                        <span class="skill-badge">Django Admin</span>
+                        <span class="skill-badge">Terminal</span>
+                        <span class="skill-badge">Windows</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN CONTACTO -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Ponte en contacto</h2>
+            <p class="contact-subtitle">¿Tienes un proyecto en mente? Me encantaría hablar contigo.</p>
+            
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="asunto">Asunto</label>
+                            <input type="text" id="asunto" name="asunto" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-large">Enviar mensaje</button>
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Ubicación</h3>
+                        <p>Tu Ciudad, País</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p><a href="mailto:jonathan.programacion@gmail.com">jonathan.programacion@gmail.com</a></p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Teléfono</h3>
+                        <p><a href="tel:+123456789">+1 (234) 567-89</a></p>
+                    </div>
+
+                    <div class="social-links">
+                        <h3>Sígueme</h3>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-codepen"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Jonathan - Auxiliar en Programación. Todos los derechos reservados. Hecho con ❤️</p>
+            <div class="footer-nav">
+                <a href="#inicio">Inicio</a>
+                <a href="#sobre">Sobre mí</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
